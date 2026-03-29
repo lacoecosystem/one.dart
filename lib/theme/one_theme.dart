@@ -54,13 +54,13 @@ class OneTheme {
         color: colorScheme.onSurface,
         size: 20,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 0,
         shape: shape.shape,
         color: colorScheme.surfaceContainerHighest,
         margin: EdgeInsets.zero,
       ),
-      dialogTheme: DialogTheme(shape: shape.shape),
+      dialogTheme: DialogThemeData(shape: shape.shape),
       snackBarTheme: SnackBarThemeData(
         elevation: 0,
         shape: shape.shape,
